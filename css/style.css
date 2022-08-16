@@ -1,0 +1,145 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   outline: none;
+}
+
+body {
+   font-family: 'Montserrat';
+}
+
+
+/* teachers */
+.teachers {
+}
+
+.teachers__container {
+   max-width: 1190px;
+   margin: 0 auto;
+   padding: 0 30px;
+}
+
+.teachers__title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 35px;
+   line-height: 43px;
+   color: #333333;
+   text-align: center;
+   margin: 0 0 65px 0;
+}
+
+.teachers__row {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: -32px;
+}
+
+.teachers__column {
+   padding: 32px;
+}
+
+.column-teachers {
+   flex: 0 1 31.333%;
+   position: relative;
+}
+
+.column-teachers::before {
+   content: '';
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 45px;
+   line-height: 55px;
+   color: #FFFFFF;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: #FBBC0D;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;  
+   position: absolute;
+   top: 0px;
+   left: 0px; 
+}
+
+.column-teachers:first-child::before {
+   content: '1';
+}
+
+.column-teachers:nth-child(2)::before {
+   content: '2';
+}
+
+.column-teachers:nth-child(3)::before {
+   content: '3';
+}
+
+.column-teachers:nth-child(4)::before {
+   content: '4';
+}
+
+.column-teachers:nth-child(5)::before {
+   content: '5';
+}
+
+.column-teachers:nth-child(6)::before {
+   content: '6';
+}
+
+.column-teachers:nth-child(7)::before {
+   content: '7';
+}
+
+.column-teachers:nth-child(8)::before {
+   content: '8';
+}
+
+.column-teachers:nth-child(9)::before {
+   content: '9';
+}
+
+.column-teachers:last-child::before {
+   content: '10';
+}
+
+.column-teachers__image {
+   width: 325px;
+   height: 295px;
+   margin: 0 0 15px 0;
+}
+
+.column-teachers__image img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 15px;
+}
+
+.column-teachers__name {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   color: #333333;
+   margin: 0 0 10px 0;   
+}
+
+.column-teachers__profession {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #333333;
+}
+/* teachers */
